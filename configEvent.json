@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "eventByMe": true,
+  "ignoreStatus": true,
+  "ignoreBroadcast": true,
+  "cooldownMs": 750,
+  "groupParticipantEvents": true,
+  "messageEvents": true,
+  "presenceEvents": false,
+  "chatEvents": false,
+  "contactEvents": false,
+  "receiptEvents": false,
+  "reactionEvents": true,
+  "callEvents": false,
+  "blocklistEvents": false,
+  "labelEvents": false,
+  "mediaEvents": false,
+  "groupEvents": true,
+  "genericEvents": true,
+  "overrides": {},
+  "unloadedEvents": [],
+  "messageReceivedEvents": true
+}

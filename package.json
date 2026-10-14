@@ -1,0 +1,35 @@
+{
+  "name": "whatsbot",
+  "version": "4.0.0",
+  "description": "Polished modular Termux WhatsApp self-bot framework using Baileys.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node bot.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@img/sharp-wasm32": "^0.35.5",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "axios": "^1.20.0",
+    "chalk": "4.1.2",
+    "cheerio": "^1.2.0",
+    "googlethis": "^1.8.0",
+    "jimp": "^1.6.1",
+    "jsqr": "^1.4.0",
+    "moment": "^2.31.0",
+    "pino": "10.3.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.35.5",
+    "sql.js": "1.14.2",
+    "striptags": "^3.2.0",
+    "uuid": "^14.0.2",
+    "yt-search": "^2.13.1",
+    "ytdlp-nodejs": "^3.4.5"
+  }
+}

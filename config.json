@@ -1,0 +1,87 @@
+{
+	"prefix": "/",
+	"botName": "Jsux",
+	"botNumber": "",
+	"botAdmins": [],
+	"adminModeDefault": false,
+	"selfBot": {
+		"enabled": true,
+		"allowFromMeCommands": true,
+		"processOwnMessageEvents": true
+	},
+	"commandDefaults": {
+		"countDown": 5,
+		"caseSensitive": true,
+		"allowPrivate": true,
+		"allowGroup": true,
+		"allowNewsletter": false
+	},
+	"persistMessages": false,
+	"auth": {
+		"directory": "./bot/auth-baileys-vps",
+		"directoryForLocalDebug": "./bot/auth-baileys-local",
+		"useMultiFileAuthState": true
+	},
+	"database": {
+		"file": "./database/runtime/bot.sqlite",
+		"backupOnStart": true,
+		"saveAfterWrite": true,
+		"backupKeep": 1
+	},
+	"logger": {
+		"enabled": true,
+		"level": "info",
+		"console": true,
+		"file": false,
+		"directory": "./logger/logs",
+		"maxFiles": 2,
+		"redactAuth": true
+	},
+	"textlogs": {
+		"cmdnotfound": true,
+		"permission": true,
+		"cooldown": true,
+		"commandError": true,
+		"commandLoaded": true,
+		"commandUnloaded": true,
+		"eventLoaded": true,
+		"eventUnloaded": true,
+		"prefix": true,
+		"admin": true,
+		"evalError": true
+	},
+	"texts": {
+		"error": "Unexpected Exception, immediate debugging advised",
+		"cmdnotfound": "No such command found. Check /help",
+		"permission": "You do not have permission to use this command.",
+		"cooldown": "Please wait {time}s before using this command again.",
+		"commandLoaded": "Command {name} loaded.",
+		"commandUnloaded": "Command {name} unloaded.",
+		"eventLoaded": "Event {name} loaded.",
+		"eventUnloaded": "Event {name} unloaded.",
+		"prefixGlobal": "Global prefix changed to {prefix}.",
+		"prefixThread": "Current thread prefix changed to {prefix}.",
+		"adminOn": "Admin only enabled",
+		"adminOff": "Admin only disabled"
+	},
+	"autoReload": {
+		"enabled": false,
+		"debounceMs": 30000
+	},
+	"autoReboot": {
+		"enabled": true,
+		"timeMs": 7200000
+	},
+	"autoUptime": {
+		"enabled": false,
+		"url": "",
+		"intervalSeconds": 180
+	},
+	"runtime": {
+		"restartExitCode": 2,
+		"restartDelayMs": 5000,
+		"shutdownTimeoutMs": 5000,
+		"dedupeOutgoingMs": 12000,
+		"groupMetadataCacheMs": 300000
+	}
+}
